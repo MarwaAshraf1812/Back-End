@@ -17,7 +17,9 @@ These projects showcase skills in building scalable, secure, and performant back
 
 ## 📂 Project Showcase
 
-All projects are organized within the **[`Django`](./Django)** directory (which contains both Python and JavaScript/TypeScript backend services):
+The projects are organized by their technology stack:
+- **[`Django`](./Django)**: Contains Python and Django-based server-side applications.
+- **[`Node.js`](./Node.js)**: Contains Node.js, Express, and TypeScript-based server-side applications.
 
 ### 1. 📝 Blog Application (Django)
 *   **Path:** [`Django/Blog_Application_Django`](./Django/Blog_Application_Django)
@@ -29,7 +31,7 @@ All projects are organized within the **[`Django`](./Django)** directory (which 
     *   Admin panel integration for easy content management.
 
 ### 2. 📚 Book Store Management API (Node.js)
-*   **Path:** [`Django/Book-Store-Management`](./Django/Book-Store-Management)
+*   **Path:** [`Node.js/Book-Store-Management`](./Node.js/Book-Store-Management)
 *   **Tech Stack:** Node.js, Express.js, MongoDB (Mongoose), JavaScript.
 *   **Key Features:**
     *   Complete RESTful API endpoints for books, authors, and users.
@@ -39,7 +41,7 @@ All projects are organized within the **[`Django`](./Django)** directory (which 
     *   Dynamic server-side views (EJS/HTML).
 
 ### 3. 🎓 LMS (Learning Management System) Backend (TypeScript)
-*   **Path:** [`Django/lms-backend`](./Django/lms-backend)
+*   **Path:** [`Node.js/lms-backend`](./Node.js/lms-backend)
 *   **Tech Stack:** Node.js, Express, TypeScript, Prisma ORM, PostgreSQL, caching.
 *   **Key Features:**
     *   Type-safe backend architecture using TypeScript interfaces.
@@ -89,7 +91,7 @@ All projects are organized within the **[`Django`](./Django)** directory (which 
 1. Make sure you have Node.js (v18+) installed.
 2. Navigate to the project directory:
    ```bash
-   cd Django/Book-Store-Management
+   cd Node.js/Book-Store-Management
    ```
 3. Install packages:
    ```bash
@@ -104,7 +106,7 @@ All projects are organized within the **[`Django`](./Django)** directory (which 
 ### Running TypeScript/Prisma Projects
 1. Navigate to the project directory:
    ```bash
-   cd Django/lms-backend
+   cd Node.js/lms-backend
    ```
 2. Install dependencies:
    ```bash
