@@ -20,6 +20,7 @@ These projects showcase skills in building scalable, secure, and performant back
 The projects are organized by their technology stack:
 - **[`Django`](./Django)**: Contains Python and Django-based server-side applications.
 - **[`Node.js`](./Node.js)**: Contains Node.js, Express, and TypeScript-based server-side applications.
+- **[`Python`](./Python)**: Contains Python database relationship examples (One-to-One, One-to-Many, Many-to-Many) and database design using SQL.
 
 ### 1. 📝 Blog Application (Django)
 *   **Path:** [`Django/Blog_Application_Django`](./Django/Blog_Application_Django)
@@ -58,6 +59,14 @@ The projects are organized by their technology stack:
     *   Categorized tasks with priorities, status tracking, and deadlines.
     *   User-specific task isolation (users only see their tasks).
     *   Clean interactive UI built on Django templates.
+
+### 5. 🗄️ Python with SQL
+*   **Path:** [`Python/`](./Python)
+*   **Tech Stack:** Python, SQL, SQLite / PostgreSQL.
+*   **Key Features:**
+    *   Implementation of fundamental database relationships: One-to-One, One-to-Many, and Many-to-Many.
+    *   Social Network database structure design and modeling.
+    *   Database query optimization using Python to execute complex SQL relationships.
 
 ---
 
@@ -120,4 +129,14 @@ The projects are organized by their technology stack:
 4. Run in development mode:
    ```bash
    npm run dev
+   ```
+
+### Running Python with SQL Projects
+1. Navigate to the project directory:
+   ```bash
+   cd Python
+   ```
+2. Run any database relationship script:
+   ```bash
+   python3 "One to One/main.py"
    ```
